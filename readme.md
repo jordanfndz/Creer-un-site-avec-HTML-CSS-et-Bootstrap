@@ -7,3 +7,5 @@ Ajout de Bootstrap v5.0 dans index.html
 Ajout de JQuery
 
 Added JQuery and Bootstrap files to .gitignore 
+
+Added Navbar and Logo to Header
