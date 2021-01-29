@@ -4,4 +4,6 @@ Création des fichier index.html et style.css
 
 Ajout de Bootstrap v5.0 dans index.html
 
-Ajout du Bundle Js Bootstrap
+Ajout de JQuery
+
+Added JQuery and Bootstrap files to .gitignore 
