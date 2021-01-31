@@ -3,41 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>La Snowboard Association</title>
     <!--Bootstrap CSS in local-->
     <link href="bootstrap-5.0.0-beta1-dist\bootstrap-5.0.0-beta1-dist\css\bootstrap.min.css" rel="stylesheet">
     <!--My CSS Stylesheet-->
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!--Insertion of header with a navbar-->
+   
     <header>
+      <!--Insertion in the header of the navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <video src="association logo.mp4" alt="Logo Snowboard Association" autoplay="autoplay" width="100px" height="100px" loop style="padding:10px"></video>
-            <a class="navbar-brand" href="#">La Snowboard Association</a>
+            <video src="association logo.mp4" alt="Logo Snowboard Association" autoplay="autoplay" width="100px" height="100px" style="padding:10px"></video>
+            <a class="navbar-brand" href="index.html">La Snowboard Association</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nos événements</a>
+                <a class="nav-link" href="">Nos événements</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nous Contacter</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="On vous aide ?" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Rechercher</button>
             </form>
           </div>
         </div>
       </nav>
+
+      <!--Insertion in the header of the Breadcrummb-->
+      <div class="row">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" 
+             aria-label="breadcrummb" class="m-1">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a href="index.html" class="text-dark">Accueil</a></li>
+          </ol>
+        </nav>
+      </div>
+
     </header>
     
     <main>
