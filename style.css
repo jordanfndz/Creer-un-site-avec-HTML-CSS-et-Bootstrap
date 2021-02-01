@@ -1,1 +1,10 @@
 /*feuille de style css*/
+html, body {
+    margin-top: 0pt;
+     margin-left: 0pt;
+     padding-top: 0pt;
+     padding-left: 0pt;
+     border-top: 0pt;
+     border-left: 0pt;
+     overflow-x: hidden;
+}
