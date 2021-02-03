@@ -10,6 +10,9 @@ Added JQuery and Bootstrap files to .gitignore
 
 Added Navbar and Logo to Header
 
+Added Footer with newsletter and footer Menu
+
+Changes in Grid layout for better reponsive behaviour (mobile-first)
 Added nos-evenements.html and nous-contacter.html to the project
 
 Added navbar and breadcrumb to new pages / removed search bar from all pages due to lack of PHP
