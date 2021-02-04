@@ -2,9 +2,7 @@
 /jquery-3.5.1.min.js
 /bootstrap-5.0.0-beta1-dist/
 
-
 #Do not track following extensions :
->>>>>>> f0f26792339292402776bde07e121842a0c0ee08
 *.jpeg
 *.jpg
 *.mp4
