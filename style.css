@@ -6,9 +6,12 @@ body, html {
 }
 
 
-
 h1, h2 {
     font-weight: bold;
+}
+
+.imgCarousel {
+    opacity: 0.3;
 }
 
 /*Navbar-brand alignment with rest of the page */
@@ -16,19 +19,20 @@ h1, h2 {
   padding-left: 0;
 }
 
-/* Carousel base class */
+/* Carousel size */
 .carousel {
   margin-bottom: 0rem;
   padding-left: 0;
   padding-right: 0;
 }
-/* Since positioning the image, we need to help out the caption */
+/* Carousel caption centered*/
 .carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+    top:55%;
+    transform: translateY(-50%);
+    bottom:initial
 }
   
-/* Declare heights because of positioning of img element */
+/* Carousel fitting and image sizing*/
 .carousel-item {
   height: 32rem;
 }
@@ -48,7 +52,7 @@ h1, h2 {
   min-height: 100%;
   position:relative;
   height:auto;
-  }
+}
     
 .map-responsive iframe {
   left:0;
@@ -56,6 +60,6 @@ h1, h2 {
   height:100%;
   width:100%;
   position:absolute;
-   }
+}
 
 
