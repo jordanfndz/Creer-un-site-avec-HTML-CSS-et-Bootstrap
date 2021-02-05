@@ -9,6 +9,8 @@
   <link href="bootstrap-5.0.0-beta1-dist\bootstrap-5.0.0-beta1-dist\css\bootstrap.min.css" rel="stylesheet">
   <!--My CSS Stylesheet-->
   <link href="style.css" rel="stylesheet" type="text/css" />
+ 
+  
 </head>
 
 <body class="container-xxl">
@@ -60,17 +62,97 @@
         aria-label="breadcrummb" class="mt-2">
         <ol class="breadcrumb">
           <li class="breadcrumb-item" aria-current="page"><a href="index.html" class="text-dark">Accueil</a></li>
-          <li class="breadcrumb-item active" aria-current="page"><a href="nous-contacter.html" class="text-dark">Nous Contacter</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="nous-contacter.html" class="text-dark">Nous
+              Contacter</a></li>
         </ol>
       </nav>
     </div>
   </header>
 
   <main class="row">
+    <div class="container-fluid bg-white">
+      <h1 class="text-center text-white bg-secondary bg-gradient rounded mx-3">Contactez-nous !</h1>
+      <!--Insertion of Contact details -->
+      <div class="card mb-3 bg-light bg-gradient">
+        <img src="https://i.picsum.photos/id/684/3872/2178.jpg?hmac=_kCER0s1iGCf3tNMsJPkghB8wokudDiVHCbS-npOst8"
+          height="auto" width="auto" class="card-img-top img-responsive" alt="Lorem Picsum Montagne">
+        <div class="card-body">
+          <h2 class="card-title">Nous localiser <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pin-angle-fill" viewbox="0 0 16 16">
+              <path d="M9.828.722a.5.5 0 0 1 .354.146l4.95 4.95a.5.5 0 0 1 0 .707c-.48.48-1.072.588-1.503.588-.177 0-.335-.018-.46-.039l-3.134 3.134a5.927 5.927 0 0 1 .16 1.013c.046.702-.032 1.687-.72 2.375a.5.5 0 0 1-.707 0l-2.829-2.828-3.182 3.182c-.195.195-1.219.902-1.414.707-.195-.195.512-1.22.707-1.414l3.182-3.182-2.828-2.829a.5.5 0 0 1 0-.707c.688-.688 1.673-.767 2.375-.72a5.92 5.92 0 0 1 1.013.16l3.134-3.133a2.772 2.772 0 0 1-.04-.461c0-.43.108-1.022.589-1.503a.5.5 0 0 1 .353-.146z"/>
+            </svg>
+          </h2>
+          <p class="card-text">
+            <address>1 Rue de la Tour</address>
+          </p>
+          <p class="card-text">
+            <address>74 000 Chamonix-Mont-Blanc</address>
+          </p>
+          <p class="card-text"><a href="mailto:contact@example.com">lasnowboardassociation@example.com</a></p>
+          <p class="card-text"><a href="tel:+33000000000">04 00 00 00 00</a></p>
+        </div>
+      </div>
 
+      <div class="row d-flex justify-content-evenly mb-3 rounded">
+        <h2 class="text-center">Si on est sur les pistes, laisse ton message ici :</h2>
+        <!--Insertion of Contact Form-->
+        <div class="col-11 col-md-8 col-lg-5 bg-light bg-gradient rounded py-3">
+          <form class="form-group">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nom</label>
+              <input type="name" class="form-control" id="name" placeholder="De Le Rue" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+              <input type="lastname" class="form-control" id="lastname" placeholder="Xavier" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Adresse mail</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="ton-mail@example.com"
+                required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Tes commentaires</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ton texte ici..."
+                required></textarea>
+            </div>
+            <!-- Button -->
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#popupForm">Envoyer
+            </button>
+            <!-- Pop-up-->
+            <div id="popupForm" class="modal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header bg-secondary bg-gradient d-flex justify-content-center">
+                    <p class="text-light fs-1 m-auto">Envoyé !!!</p>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <p>On a bien reçu ton message, dès qu'on pose la planche on reviendra vers toi !</p>
+                    <p>Enfin.. dès qu'on aura appris le JavaScript et PHP ;)</p>
+                  </div>
+                  <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Merci</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--Insertion of Google Maps-->
+        <div class="col-11 col-md-8 col-lg-6 py-3">
+          <div class="map-responsive rounded">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6601.088869746439!2d6.859980682660985!3d45.92298511756955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47894e76e2759875%3A0x8a6682d260cfbd74!2sRue%20de%20la%20Tour%2C%2074400%20Chamonix-Mont-Blanc!5e0!3m2!1sfr!2sfr!4v1612447222660!5m2!1sfr!2sfr"
+              width="auto" height="auto" frameborder="0" style="border:0;" allowfullscreen="allowfullscreen"
+              aria-hidden="false" tabindex="0"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </main>
 
-  <footer class="row">
+  <footer class="row footer">
     <!--First footer with Newsletter and links-->
     <div class="container-fluid bg-light bg-gradient">
       <div class="row">
@@ -78,7 +160,7 @@
           <p class="pt-2">Tu souhaites rester au courant des dernières nouvelles et événements de La Snowboard
             Association ? <span class="fw-bold"> Inscris-toi à notre newsletter !</span></p>
         </div>
-      </div>  
+      </div>
       <div class="row mb-3">
         <div class="col d-flex justify-content-center align-items-center">
           <div class="col-6 col-lg-4 d-flex justify-content-center align-items-center mx-2">
@@ -86,29 +168,31 @@
           </div>
           <div class="col-auto">
             <!-- Button -->
-            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#popup">J'en suis !</button>
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#popup">J'en suis
+              !</button>
           </div>
           <!-- Pop-up-->
           <div id="popup" class="modal">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header bg-secondary bg-gradient d-flex justify-content-center">
-                <p class="text-light fs-1 m-auto">Félicitations !!!</p>
-              </div>
-              <div class="modal-body bg-light">
-                <p>Tu es bien inscrit(e) à notre newsletter, nous sommes très heureux de te compter parmis nous.</p>
-                <p>Tu recevras bientôt de nos nouvelles, enfin.. dès qu'on aura appris le JavaScript ;)</p>
-              </div>
-              <div class="modal-footer bg-light">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Merci</button>
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header bg-secondary bg-gradient d-flex justify-content-center">
+                  <p class="text-light fs-1 m-auto">Félicitations !!!</p>
+                </div>
+                <div class="modal-body bg-light">
+                  <p>Tu es bien inscrit(e) à notre newsletter, nous sommes très heureux de te compter parmis nous.</p>
+                  <p>Tu recevras bientôt de nos nouvelles, enfin.. dès qu'on aura appris le JavaScript et PHP ;)</p>
+                </div>
+                <div class="modal-footer bg-light">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Merci</button>
+                </div>
               </div>
             </div>
           </div>
-          </div>
         </div>
       </div>
-      <p class="small text-black-50 text-center">En souscrivant vous acceptez de recevoir la Newsletter <a class="text-info ms-1" href="https://google.fr/" target="_blank">Policy</a></p>
+      <p class="small text-black-50 text-center">En souscrivant vous acceptez de recevoir la Newsletter <a
+          class="text-info ms-1" href="https://google.fr/" target="_blank">Policy</a></p>
     </div>
 
     <!--Second footer for copyright-->
@@ -139,5 +223,7 @@
   <!--Js Bootstrap v5.0-->
   <script src="bootstrap-5.0.0-beta1-dist\bootstrap-5.0.0-beta1-dist\js\bootstrap.bundle.min.js"></script>
 
+ 
 </body>
+
 </html>
