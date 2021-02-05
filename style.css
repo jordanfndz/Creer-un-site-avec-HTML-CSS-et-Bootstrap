@@ -1,65 +1,97 @@
-/*feuille de style css */
-body, html {
-    background-color: lightgrey;
-    height: 100%;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
+/*Stylesheet css */
+
+/* *****COMMON TO ALL PAGES CSS***** */
+    body, html {
+        height: 100%;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        color: rgb(108,117,125);
+    }
+
+    h1, h2 {
+        font-weight: bold;
+    }
+
+/* *****END OF COMMON PAGES CSS***** */
 
 
-h1, h2 {
-    font-weight: bold;
-}
 
-.imgCarousel {
-    opacity: 0.3;
-}
 
-/*Navbar-brand alignment with rest of the page */
-#navContainer {
-  padding-left: 0;
-}
 
-/* Carousel size */
-.carousel {
-  margin-bottom: 0rem;
-  padding-left: 0;
-  padding-right: 0;
-}
-/* Carousel caption centered*/
-.carousel-caption {
-    top:55%;
-    transform: translateY(-50%);
-    bottom:initial
-}
-  
-/* Carousel fitting and image sizing*/
-.carousel-item {
-  height: 32rem;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
+/* *****INDEX.HTML PAGE CSS***** */
 
-/*Responsive Google Map CSS*/
+    /*Navbar-brand alignment with rest of the page */
+    #navContainer {
+    padding-left: 0;
+    }
 
-.map-responsive {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  min-height: 100%;
-  position:relative;
-  height:auto;
-}
+    /* Carousel size */
+    .carousel {
+    margin-bottom: 0rem;
+    padding-left: 0;
+    padding-right: 0;
+    }
+    /* Carousel caption centered*/
+    .carousel-caption {
+        top:55%;
+        transform: translateY(-50%);
+        bottom:initial
+    }
     
-.map-responsive iframe {
-  left:0;
-  top:auto;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
+    /* Carousel fitting, image sizing and color*/
+    .carousel-item {
+    height: 32rem;
+    }
+    .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    opacity: 0.3;
+    }
+
+    .customBgColor {
+        background-color: lightgrey;
+    }
+
+    /* Space out featurettes between each-others*/
+    .featurette-divider {
+        margin: 2rem; 
+    }
+
+    .featuretteImg {
+        width: 100%;
+        min-height: 100%;
+      }    
+
+    /* Image size of the Team*/
+    .teamImg {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+/* *****END OF INDEX.HTML PAGE CSS***** */
 
 
+
+
+/* *****NOUS-CONTACTER.HTML PAGE CSS***** */
+
+    /*Responsive Google Map CSS*/
+    .map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    min-height: 100%;
+    position:relative;
+    height:auto;
+    }
+        
+    .map-responsive iframe {
+    left:0;
+    top:auto;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+/* *****END OF NOUS-CONTACTER.HTML PAGE CSS***** */
