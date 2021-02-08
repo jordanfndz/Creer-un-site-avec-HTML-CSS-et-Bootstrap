@@ -121,17 +121,27 @@
     }
 /* *****END OF NOUS-CONTACTER.HTML PAGE CSS***** */ 
 
-/* *****END OF NOS-EVENEMENT.HTML PAGE CSS***** */ 
-.lastEvent {
-    opacity: 0.6;
-}
+/* *****NOS-EVENEMENT.HTML PAGE CSS***** */ 
+    .lastEventImg {
+        opacity: 0.6;
+    }
+    /*Collapse Main Event style*/
+    #collapseTexte {
+        position: relative;
+        z-index: 1;
+    }
 
-#collapseTexte {
-    position: relative;
-    z-index: 1;
-}
+    .card-body  {
+        font-size: 0.8rem;
+    }
 
-#collapseStyle h3{
-    text-decoration: underline;
-}
+    .card-body p, ul {
+        color: lightgrey;
+        
+    }
+    .card-body ul {
+        list-style:none;
+        margin-left:0;
+        padding-left:0;
+    }
 /* *****END OF NOS-EVENEMENT.HTML PAGE CSS***** */ 
