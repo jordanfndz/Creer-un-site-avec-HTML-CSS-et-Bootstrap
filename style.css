@@ -144,4 +144,10 @@
         margin-left:0;
         padding-left:0;
     }
+
+    /*Thumbnails CSS*/
+    .card img{
+        padding: 0;
+
+    }
 /* *****END OF NOS-EVENEMENT.HTML PAGE CSS***** */ 
