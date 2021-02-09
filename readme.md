@@ -22,3 +22,5 @@ Modified visual ascept of navbar and breadcrumb and added style.css to the proje
 Added content to nous-contacter.html, including: card, form (with popup) and google maps
 
 Added content to nos-evenements.html, including: card with collapse for the main event, thumbnails for future events and CSS style 
+
+Deployed the website to jordanfndz.fr (OVH) with FileZilla 
