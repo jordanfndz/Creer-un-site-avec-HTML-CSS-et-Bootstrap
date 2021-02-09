@@ -20,3 +20,5 @@ Added navbar and breadcrumb to new pages / removed search bar from all pages due
 Modified visual ascept of navbar and breadcrumb and added style.css to the project
 
 Added content to nous-contacter.html, including: card, form (with popup) and google maps
+
+Added content to nos-evenements.html, including: card with collapse for the main event, thumbnails for future events and CSS style 
