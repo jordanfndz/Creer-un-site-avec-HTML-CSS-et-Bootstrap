@@ -7,7 +7,7 @@
         color: rgb(108,117,125);
     }
 
-    h1, h2, .btn {
+    h1, h2, h4, .btn {
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -19,9 +19,6 @@
     }
 
 /* *****END OF COMMON PAGES CSS***** */
-
-
-
 
 
 /* *****INDEX.HTML PAGE CSS***** */
@@ -104,8 +101,6 @@
 
       
 /* *****END OF INDEX.HTML PAGE CSS***** */
-
-
 
 
 /* *****NOUS-CONTACTER.HTML PAGE CSS***** */
@@ -194,7 +189,5 @@
             background:rgb(108,117,125); 
         }
     }
-
-
     
 /* *****END OF NOS-EVENEMENT.HTML PAGE CSS***** */ 

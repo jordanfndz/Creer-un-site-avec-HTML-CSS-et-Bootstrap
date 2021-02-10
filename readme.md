@@ -24,3 +24,7 @@ Added content to nous-contacter.html, including: card, form (with popup) and goo
 Added content to nos-evenements.html, including: card with collapse for the main event, thumbnails for future events and CSS style 
 
 Deployed the website to jordanfndz.fr (OVH) with FileZilla 
+
+Modified Forms with Submit fonction but using popup as a return. This is causing forms to submit even with empty fields as a result but PHP and JS are required otherwise
+
+Modified CSS for: the modals with h4 in uppercase + icon, thumbnails and Team font-size for mobile is now easier to read
