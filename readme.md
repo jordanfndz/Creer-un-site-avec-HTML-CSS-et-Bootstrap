@@ -31,4 +31,7 @@ Modified CSS for: the modals with h4 in uppercase + icon, thumbnails and Team fo
 
 Modified Titles wording
 
-Removed local bootstrap and replaced by CDN for better loading time (as advised by Google PageSpeed Insights) and removed those file from .gitignore
+Removed local bootstrap and replaced by CDN for better loading time (as advised by Google PageSpeed Insights) and removed those files from 
+.gitignore
+
+Corrected minor bugs in navbar menu on aria-controls value that was incorrect. Reviewed indentation on all html pages.

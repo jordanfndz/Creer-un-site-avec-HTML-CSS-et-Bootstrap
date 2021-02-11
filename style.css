@@ -3,13 +3,17 @@
 /* *****COMMON TO ALL PAGES CSS***** */
     body, html {
         height: 100%;
-        font-family: 'Open Sans', sans-serif;
         color: rgb(108,117,125);
     }
 
     h1, h2, h4, .btn {
         font-weight: bold;
         text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
     }
 
     @media (max-width: 767.98px) { 
