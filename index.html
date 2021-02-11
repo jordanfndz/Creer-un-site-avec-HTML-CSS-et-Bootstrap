@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>La Snowboard Association</title>
   <meta name="description" content="Venez découvrir notre association de snowboard, ne manquez aucun événement de la saison et suivez les dernières actualité en matière de glisse" />
-  <!--Bootstrap CSS in local-->
-  <link href="bootstrap-5.0.0-beta1-dist\bootstrap-5.0.0-beta1-dist\css\bootstrap.min.css" rel="stylesheet">
+  <!--Bootstrap CSS CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!--My CSS Stylesheet-->
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -82,7 +82,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <h1 class="fs-1">La Snowboard Association</h1>
-                  <p class="fs-3">Viens découvrir notre association et loupe aucun moment fort de la saison</p>
+                  <p class="fs-3">Découvre notre association et manque aucun moment fort de la saison</p>
                   <p><a class="btn btn-lg btn-outline-light mt-3" href="#featuretteBlock" role="button">Je Glisse</a></p>
                 </div>
               </div>
@@ -94,7 +94,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <h1 class="fs-1">Les Evénements à Ne Pas Rater</h1>
-                  <p class="fs-3">On te tiendra au courant de tout pour que tu profites un max</p>
+                  <p class="fs-3">Nous te tiendons informé pour que tu puisses en profiter un max</p>
                   <p><a class="btn btn-lg btn-outline-light mt-3" href="nos-evenements.html" role="button">Je Fonce</a></p>
                 </div>
               </div>
@@ -106,7 +106,7 @@
               <div class="container">
                 <div class="carousel-caption">
                   <h1 class="fs-1">Des Questions ?</h1>
-                  <p class="fs-3">On est à l'écoute de chacune de tes attentes, alors fonce</p>
+                  <p class="fs-3">Nous sommes à l'écoute de chacune de tes attentes, alors fonce</p>
                   <p><a class="btn btn-lg btn-outline-light mt-3" href="nous-contacter.html" role="button">Contacte-nous</a></p>
                 </div>
               </div>
@@ -232,12 +232,12 @@
               </div>
               <div class="col-auto ms-3">
                 <!--Using a Popup to simulate the return, submit will work even if email is empty as a result-->
-                <button class="btn btn-outline-secondary" type="" data-toggle="modal" data-target="#popup">J'en suis</button>
+                <button class="btn btn-outline-secondary" type="submit" data-bs-toggle="modal" data-bs-target="#popup">J'en suis</button>
               </div>
             </form>
           </div>
           <!-- Pop-up-->
-          <div id="popup" class="modal">
+          <div id="popup" class="modal fade">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header bg-secondary bg-gradient d-flex justify-content-center">
@@ -252,8 +252,7 @@
                 <p>Tu recevras bientôt de nos nouvelles, enfin.. dès qu'on aura appris le JavaScript et PHP ;)</p>
               </div>
               <div class="modal-footer bg-light">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Merci</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fermer</button>
               </div>
             </div>
           </div>
@@ -277,19 +276,7 @@
       </div>
     </div>
   </footer>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS (CDN used because V5beta did not worked with Popper...)-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-  </script>
-
-  <!--Js Bootstrap v5.0-->
-  <script src="bootstrap-5.0.0-beta1-dist\bootstrap-5.0.0-beta1-dist\js\bootstrap.bundle.min.js"></script>
-
+  <!--Bootstrap JS Bundle CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

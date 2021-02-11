@@ -28,3 +28,7 @@ Deployed the website to jordanfndz.fr (OVH) with FileZilla
 Modified Forms with Submit fonction but using popup as a return. This is causing forms to submit even with empty fields as a result but PHP and JS are required otherwise
 
 Modified CSS for: the modals with h4 in uppercase + icon, thumbnails and Team font-size for mobile is now easier to read
+
+Modified Titles wording
+
+Removed local bootstrap and replaced by CDN for better loading time (as advised by Google PageSpeed Insights) and removed those file from .gitignore
