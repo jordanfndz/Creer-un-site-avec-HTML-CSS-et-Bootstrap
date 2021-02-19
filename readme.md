@@ -39,3 +39,9 @@ Corrected minor bugs in navbar menu on aria-controls value that was incorrect. R
 !!! WARNING : images are not uploaded on the server on purpose because of the 10mo free plan offered by OVH. Using links that is slowing the loading time !!!
 
 !!! WARNING : Newsletter subscription and Contact form will submit even if fields are left empty.. This is made on purpose to simulate a response with a modal when submitting. Once PHP and Js are included, normal responce will be expected as they all have a "required" attribut !!!
+
+Added SSL certificate to website via OVH and htpps via .htaccess file
+
+Modified issue with multiple H1 in carousel and corrected id names for better URL design in index.hmtl
+
+Added missing label to Newsletter form-group
