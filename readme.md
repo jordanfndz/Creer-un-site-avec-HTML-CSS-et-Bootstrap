@@ -45,3 +45,5 @@ Added SSL certificate to website via OVH and htpps via .htaccess file
 Modified issue with multiple H1 in carousel and corrected id names for better URL design in index.hmtl
 
 Added missing label to Newsletter form-group
+
+Added Clarity uin header from Microsoft Bing Webmaster Tool:
