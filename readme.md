@@ -1,10 +1,10 @@
-Initialisation du projet et création de l'espace Git
+Launching the project et creating git repository
 
-Création des fichier index.html et style.css
+Created index.html et style.css
 
-Ajout de Bootstrap v5.0 dans index.html
+Added Bootstrap v5.0 in index.html
 
-Ajout de JQuery
+Added JQuery
 
 Added JQuery and Bootstrap files to .gitignore 
 
@@ -46,4 +46,4 @@ Modified issue with multiple H1 in carousel and corrected id names for better UR
 
 Added missing label to Newsletter form-group
 
-Added Clarity uin header from Microsoft Bing Webmaster Tool:
+Added Clarity in header from Microsoft Bing Webmaster Tool:
