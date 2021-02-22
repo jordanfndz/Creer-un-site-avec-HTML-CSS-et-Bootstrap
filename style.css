@@ -3,12 +3,17 @@
 /* *****COMMON TO ALL PAGES CSS***** */
     body, html {
         height: 100%;
-        font-family: Comic Sans MS, Comic Sans, cursive;
         color: rgb(108,117,125);
     }
 
-    h1, h2 {
+    h1, h2, h4, .btn {
         font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
     }
 
     @media (max-width: 767.98px) { 
@@ -18,9 +23,6 @@
     }
 
 /* *****END OF COMMON PAGES CSS***** */
-
-
-
 
 
 /* *****INDEX.HTML PAGE CSS***** */
@@ -105,8 +107,6 @@
 /* *****END OF INDEX.HTML PAGE CSS***** */
 
 
-
-
 /* *****NOUS-CONTACTER.HTML PAGE CSS***** */
 
     /*Responsive Google Map CSS*/
@@ -155,16 +155,20 @@
 
     .card img{
         padding: 0;
-
     }
-
-    
 
     @media (max-width:991.98px) {
 
+        .thumbSize h3{
+            font-size: 1.25rem;
+            text-transform: uppercase;
+        }
+
         .thumbSize p {
-            height: 150px;
+            height: 200px;
             overflow-y: scroll;
+            font-size: 1.15rem;
+            font-style: italic;
         }
 
         /*** Custom Scrollbar ***/
@@ -189,7 +193,5 @@
             background:rgb(108,117,125); 
         }
     }
-
-
     
 /* *****END OF NOS-EVENEMENT.HTML PAGE CSS***** */ 
